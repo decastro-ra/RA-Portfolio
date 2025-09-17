@@ -1,9 +1,8 @@
 :root {
-  --accent: #A86774;
-  --secondary: #B79C82;
   --background: #FAF9F6;
   --neutral: #9AA899;
-  --highlight: #8495C8;
+  --accent: #8495C8;
+  --strong: #944654;
   --dark: #282525;
 }
 
@@ -47,20 +46,15 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--highlight);
+  color: var(--accent);
 }
 
 /* HERO */
 .hero {
-  background: var(--secondary);
+  background: var(--neutral);
   color: var(--dark);
   text-align: center;
   padding: 5rem 2rem;
-}
-
-.hero-content {
-  max-width: 800px;
-  margin: auto;
 }
 
 .hero h2 {
@@ -69,7 +63,7 @@ nav a:hover {
 }
 
 .hero .btn {
-  background: var(--accent);
+  background: var(--strong);
   color: var(--background);
   padding: 0.8rem 2rem;
   border-radius: 4px;
@@ -80,7 +74,7 @@ nav a:hover {
 }
 
 .hero .btn:hover {
-  background: var(--highlight);
+  background: var(--accent);
 }
 
 /* SECTIONS */
@@ -96,7 +90,7 @@ section {
 h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--accent);
+  color: var(--strong);
 }
 
 /* ABOUT */
@@ -112,7 +106,7 @@ h2 {
 
 /* SERVICES */
 .services {
-  background: var(--neutral);
+  background: var(--background);
 }
 
 .card-grid {
@@ -122,10 +116,11 @@ h2 {
 }
 
 .card {
-  background: var(--background);
+  background: var(--neutral);
   border-radius: 8px;
   padding: 2rem;
   transition: transform 0.3s, box-shadow 0.3s;
+  color: var(--dark);
 }
 
 .card:hover {
@@ -134,6 +129,10 @@ h2 {
 }
 
 /* SKILLS */
+.skills {
+  background: var(--background);
+}
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -142,19 +141,20 @@ h2 {
 }
 
 .skills-list span {
-  background: var(--secondary);
+  background: var(--accent);
+  color: var(--background);
   padding: 0.5rem 1rem;
   border-radius: 20px;
 }
 
 /* CONTACT */
 .contact {
-  background: var(--background);
+  background: var(--neutral);
   text-align: center;
 }
 
 .contact a {
-  color: var(--highlight);
+  color: var(--strong);
   text-decoration: none;
 }
 
