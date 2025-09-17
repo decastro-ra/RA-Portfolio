@@ -3,102 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>R.A. DE CASTRO | Virtual Assistant</title>
+  <title>R.A. De Castro | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- NAVIGATION -->
+  <!-- ===== NAVBAR ===== -->
   <header>
-    <div class="container nav-container">
-      <h1 class="logo">R.A. DE CASTRO</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <nav class="navbar">
+      <div class="logo">R.A. DE CASTRO</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-content">
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>R.A. DE CASTRO</h1>
       <h2>Your behind-the-scenes sidekick</h2>
-      <h3>Data Entry & Admin Support | Community & Content Support</h3>
-      <p>Hi! I’m R.A., a rookie VA who is tech-savvy, detail-oriented, and quick to learn. I help busy people stay organized and get things done efficiently.</p>
-      <a href="#contact" class="btn-primary">Let's Work Together</a>
+      <p>Data Entry & Admin Support | Community & Content Support</p>
+      <a href="#contact" class="btn">Work With Me</a>
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- ===== ABOUT ===== -->
   <section id="about" class="about">
-    <div class="container split">
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>I bring:</p>
-        <ul>
-          <li>Accuracy and efficiency with a keen eye for detail</li>
-          <li>Strong organizational and communication skills</li>
-          <li>A creative side, especially with Canva and basic design tasks</li>
-          <li>Quick learning and adaptability</li>
-        </ul>
+    <h2>About Me</h2>
+    <p>
+      Hi! I am R.A., your behind-the-scenes sidekick. I am a rookie VA specializing in data entry, administrative support, and community and content support. I am a quick learner, tech-savvy and detail-oriented.
+    </p>
+    <ul>
+      <li>Accuracy and efficiency with a keen eye for detail</li>
+      <li>Strong organizational and communication skills</li>
+      <li>Creative with Canva and basic design tasks</li>
+      <li>Quick learning and adaptability</li>
+    </ul>
+    <p>Let’s work together to make your workflow easier and more efficient!</p>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Project 1">
+        <h3>Community Admin Work</h3>
+        <p>Assisted in organizing online fanbase events, managing content posting and moderating group discussions.</p>
       </div>
-      <div class="about-img">
-        <div class="img-placeholder">Your Photo</div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Project 2">
+        <h3>Data Entry Support</h3>
+        <p>Handled spreadsheets, transcribed documents, and organized files for local freelance clients.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Project 3">
+        <h3>Basic Canva Graphics</h3>
+        <p>Created simple social media graphics and presentations for small online projects.</p>
       </div>
     </div>
   </section>
 
-  <!-- SERVICES -->
-  <section id="services" class="services">
-    <div class="container">
-      <h2>What I Can Do</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Data Entry & Admin Support</h3>
-          <p>Email management, scheduling, file organization, CRM updates, research, and basic document creation.</p>
-        </div>
-        <div class="card">
-          <h3>Community & Content Support</h3>
-          <p>Moderation, replying to comments, engaging with followers, repurposing content, and scheduling posts.</p>
-        </div>
-        <div class="card">
-          <h3>Basic Graphic Design</h3>
-          <p>Social media posts, simple presentations, banners, headers, and covers using Canva.</p>
-        </div>
-        <div class="card">
-          <h3>Brand & Logo Design (Beginner)</h3>
-          <p>Brand kits, simple logos, and visual identity mockups for small startups or personal brands.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
+  <!-- ===== SKILLS ===== -->
   <section id="skills" class="skills">
-    <div class="container">
-      <h2>Skills & Tools</h2>
-      <div class="skills-list">
-        <span>Data Entry</span><span>Web Research</span><span>Admin Support</span><span>Content Creation</span>
-        <span>Canva</span><span>Slack</span><span>Google Suite</span><span>Microsoft Office</span>
-        <span>Notion</span><span>Calendly</span><span>Discord</span><span>Meta Business</span>
-      </div>
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-card">Data Entry</div>
+      <div class="skill-card">Admin Support</div>
+      <div class="skill-card">Community Management</div>
+      <div class="skill-card">Content Support</div>
+      <div class="skill-card">Basic Graphic Design (Canva)</div>
+      <div class="skill-card">Web Research</div>
+      <div class="skill-card">Google Suite & MS Office</div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- ===== CONTACT ===== -->
   <section id="contact" class="contact">
-    <div class="container contact-box">
-      <h2>Let's Connect</h2>
-      <p>Email: <a href="mailto:radecastro.work@gmail.com">radecastro.work@gmail.com</a></p>
-      <p>Phone: +63 992 872 2748</p>
-      <a href="mailto:radecastro.work@gmail.com" class="btn-primary">Hire Me</a>
-    </div>
+    <h2>Contact Me</h2>
+    <p>Let’s talk about how I can support your team!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
+  <!-- ===== FOOTER ===== -->
   <footer>
-    <p>© 2025 R.A. DE CASTRO | Your behind-the-scenes sidekick</p>
+    <p>© 2025 R.A. De Castro. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
